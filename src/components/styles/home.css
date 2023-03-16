@@ -1,0 +1,22 @@
+
+.section_1{
+    width: 100%;
+    height: fit-content;
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    
+}
+.section_1 p{
+    font-family: 'Genos';
+    font-size: 5em;
+    margin: 1em 0em 1.6em 0em;
+}
+.corousel{
+    /* width: 80%; */
+    margin: auto;
+    padding: 4em 5em;
+    border-bottom: 1px solid gray;
+
+}
+

@@ -1,0 +1,39 @@
+.list_container{
+    width: 95%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 2em;
+    cursor: pointer;
+}
+.list_container:hover{
+    background-color: #f5ebe0;
+    box-shadow: 4px 0px 5px gray;
+}
+.list_container img{
+    width: 10%;
+    height: 10em;
+    margin-right: 2em;
+}
+.text{
+    width: 90%;
+}
+.priceRating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+.text span{
+
+    white-space: nowrap;
+    overflow: hidden;
+
+
+}
+.list_rating{
+    width: 3em;
+    height: 3em;
+    margin: 0;
+}

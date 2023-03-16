@@ -1,0 +1,45 @@
+.cart_item{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 6em;
+    position: relative;
+    cursor: pointer;
+}
+.cart_item img{
+    width: 18%;
+    height: 15em;
+    padding: 1em;
+}
+.cart_item_details{
+    width: 82%;
+    margin: 1em;
+    padding: 1em 2em;
+}
+.price_quantity{
+    display: flex;
+    flex-direction: column;
+}
+.price_quantity span{
+    font-size: 1.5em;
+}
+.change_quantity{
+    margin: auto 1em;
+    position: absolute;
+    right: 0.5em;
+    bottom: 7em;
+}
+.change_quantity Button{
+    margin: 0.3em 0.5em;
+}
+.change_quantity_button{
+    width: 2em;
+    height: 2em;
+    background-size: 100%;
+
+}
+.increase{
+    background-image: url('../images/add_item.png');  
+}
+.decrease{
+    background-image: url('../images/delete_item.png');
+}

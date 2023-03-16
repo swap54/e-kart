@@ -1,0 +1,140 @@
+.checkout_body{
+    padding: 0.2em 0.5em;
+    display: flex;
+    flex-direction: row;
+
+}
+.user_data>h4{
+
+    margin-bottom: 0.5em;
+}
+.user_data{
+    padding: 1em 2em;
+    margin: 0em 1em;
+    width: 50%;
+}
+.total_amount{
+    margin: 1em 0em 2em 0em;
+}
+.total_amount>span{
+    font-size: 1.5em;
+}
+.payment_options{
+    width: 90%;
+    margin: 1em 0em;
+    box-shadow: 1px 1px 2px gray;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.payment_options_selected{
+    width: 90%;
+    margin: 1em 0em;
+    box-shadow: 1px 1px 2px gray;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: 	#198754;
+    color: aliceblue;
+}
+.payment_options:hover{
+    background-color: #f5ebe0;
+}
+.payment_section{
+    position: relative;
+}
+.place_order_button{
+    position: absolute;
+    margin: 1em;
+    right: 5em;
+
+}
+
+/* Order placed animation */
+
+.success-animation {
+    margin:150px auto;
+    height: 12em;
+
+}
+.success_message{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    animation: success 3s;
+}
+.success_buttons{
+    margin: 2em auto;
+
+    width: fit-content;
+}
+
+@keyframes success {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.success_message h3{
+    margin: auto;
+}
+.home_button{
+margin: 0em 1em;
+}
+.checkmark {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #4bb71b;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #4bb71b;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+    position:relative;
+    top: 5px;
+    right: 5px;
+   margin: 0 auto;
+}
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #4bb71b;
+    fill: #fff;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+ 
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #4bb71b;
+    }
+}

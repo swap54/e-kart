@@ -1,0 +1,26 @@
+.heading{
+    margin: 0.4em 1em;
+    font-family: 'Genos';
+}
+.content{
+    margin-bottom: 1em;
+    min-height: 30em;
+}
+.navigation_buttons{
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.loader{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.loading_area{
+    height: 80vh;
+    justify-content: center;
+    padding: auto;
+    display: flex;
+    align-items: center;
+}

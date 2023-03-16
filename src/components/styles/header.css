@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Genos&display=swap'); */
+.header_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+    
+}
+.header_container h1{
+    font-family: 'Genos';
+    margin: auto 1em;
+    cursor: pointer;
+}
+.nav{
+    margin: auto 1em auto 1em;
+}
+.nav div{
+    text-decoration: none;
+    margin: 1em 0.5em;
+    color: black;
+    font-family: 'Genos';
+    font-size: 25px;
+    
+}
+.Link{
+    text-decoration: none;
+    margin: 1em 0.5em;
+    color: black;
+    font-family: 'Genos';
+    font-size: 25px;
+}
+.Link:hover{
+  color: #006d77;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family:'Genos';
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .collections{
+    position: relative;
+  }
+  .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    height: fit-content;
+    min-width: 8em;
+    width: fit-content;
+    box-shadow: 0px 1px 3px gray;
+    background-color: white;
+  }
+  .drop_down_link{
+    margin: 0.2em;
+    text-decoration: none;
+    color: black;
+  }
+  .drop_down_link:hover{
+    background-color: #f5ebe0;
+    color: black;
+  }

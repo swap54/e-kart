@@ -1,0 +1,17 @@
+.empty_cart_container{
+    display: flex;
+}
+.empty_cart{
+    width: 34em;
+    margin: 0em auto;
+}
+.cart_items{
+    min-height: 25.4em;
+    position: relative;
+}
+.checkout_button{
+    position: absolute;
+    margin: auto;
+    right: 3em;
+    bottom: 0.3em;
+}

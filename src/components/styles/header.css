@@ -69,3 +69,18 @@
     background-color: #f5ebe0;
     color: black;
   }
+
+  @media only screen and (max-width: 514px) {
+    .header_container{
+      margin-top: 1em;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid gray;
+    }
+    .nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
